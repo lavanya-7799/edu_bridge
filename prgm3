@@ -1,0 +1,26 @@
+package programfrist;
+
+abstract class Atm2 {
+	 abstract void withdraw();
+	}
+	 abstract class Atm3 extends Atm2 {
+		 abstract void deposite();
+	 }
+
+	 public class Atm1 extends Atm3 {
+		  void withdraw()
+		  {
+			  System.out.println("withdraw");
+		  }
+		  void deposite()
+		  {
+			  System.out.println("deposite");
+		  }
+			public static void main(String[] args) {
+				Atm1 ff = new Atm1();
+				ff.withdraw();
+				ff.deposite();
+			}
+		}
+
+
