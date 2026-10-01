@@ -1,0 +1,17 @@
+package java;
+public class Demo {
+	void add(String s)
+	{
+		System.out.println("string");
+	}
+	void add(int a)
+	{
+		System.out.println("Integer");
+	}
+}
+public static void main(String[]args)
+{
+	Demo tt=new Demo();
+	tt.add("lav");
+	tt.add(5);
+}
