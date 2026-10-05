@@ -1,0 +1,77 @@
+package programfrist;
+import java.util.Scanner;
+public class Main 
+{
+public static void main(String[] args) {
+
+	        Scanner sc = new Scanner(System.in);
+
+	        String name = "";
+	        int age = 0;
+
+	        int choice;
+
+	        do {
+	            System.out.println("\n===== MAIN MENU =====");
+	            System.out.println("1. Create");
+	            System.out.println("2. Display");
+	            System.out.println("3. Raise");
+	            System.out.println("4. SQL");
+	            System.out.println("5. Exit");
+	            System.out.print("Enter your choice: ");
+
+	            choice = sc.nextInt();
+	            sc.nextLine();   // clear newline
+
+	            switch (choice) {
+
+	                case 1:
+	                    // Create
+	                    String again;
+
+	                    do {
+	                        System.out.print("Enter your name: ");
+	                        name = sc.nextLine();
+
+	                        System.out.print("Enter your age: ");
+	                        age = sc.nextInt();
+	                        sc.nextLine();
+
+	                        System.out.print("Do you want to continue? (Yes/No): ");
+	                        again = sc.nextLine();
+
+	                    } while (again.equalsIgnoreCase("Yes"));
+
+	                    break;
+
+	                case 2:
+	                    // Display
+	                    System.out.println("\n----- DISPLAY -----");
+	                    System.out.println("Name: " + name);
+	                    System.out.println("Age: " + age);
+	                    break;
+
+	                case 3:
+	                    // Raise
+	                    System.out.println("\nRaise option selected.");
+	                    break;
+
+	                case 4:
+	                    // SQL
+	                    System.out.println("\nSQL option selected.");
+	                    break;
+
+	                case 5:
+	                    System.out.println("\nExiting program...");
+	                    break;
+
+	                default:
+	                    System.out.println("Invalid choice! Please enter 1 to 5.");
+	            }
+
+	        } while (choice != 5);
+
+	        sc.close();
+	    }
+	}
+
