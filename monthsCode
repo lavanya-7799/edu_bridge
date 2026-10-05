@@ -1,0 +1,51 @@
+package programfrist;
+
+public class month {
+
+	public static void main(String[] args) {
+	int months=7;
+	switch(months)
+	{
+	case 0:
+		System.out.println("Welcome to january");
+		break;
+	case 1:
+		System.out.println("Welcome to february");
+		break;
+	case 2:
+		System.out.println("Welcome to March");
+		break;
+	case 3:
+		System.out.println("Welcome to April");
+		break;
+	case 4:
+		System.out.println("Welcome to May");
+		break;
+	case 5:
+		System.out.println("Welcome to June");
+		break;
+	case 6:
+		System.out.println("Welcome to July");
+		break;
+	case 7:
+		System.out.println("Welcome to Auguest");
+		break;
+	case 8:
+		System.out.println("Welcome to September");
+		break;
+	case 9:
+		System.out.println("Welcome to october");
+		break;
+	case 10:
+		System.out.println("Welcome to Novemeber");
+		break;
+	case 11:
+		System.out.println("Welcome to December");
+		break;
+	
+	}
+	
+
+	}
+
+}
