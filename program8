@@ -1,0 +1,27 @@
+package programfrist;
+
+class Parent1 {
+    private String a;
+
+    public String getA() {
+        return a;
+    }
+
+    public void setA(String a) {
+        this.a = a;
+    }
+}
+
+class Parent extends Parent1 {
+
+    public static void main(String[] args) {
+
+        Parent1 bb = new Parent1();
+
+        bb.setA("Ram");
+
+        String ss = bb.getA();
+
+        System.out.println(ss);
+    }
+}
