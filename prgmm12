@@ -1,0 +1,19 @@
+package myjavaproject;
+
+public class Demo{
+	Demo()
+	{
+		System.out.println("RAM");
+	}
+Demo(int a)
+{
+	System.out.println(" "+a);
+}
+public static void main(String[]args)
+{
+	Demo aa=new Demo();
+	Demo bb=new Demo(10);
+}
+}
+	
+
