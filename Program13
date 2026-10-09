@@ -1,0 +1,45 @@
+package programfrist;
+public class dowhile {
+    public static void main(String[] args){
+    	String s1 = new String("Hello");
+		String s2=new String("Hello");
+		if(s1==s2)
+		{
+			System.out.println("Equal");
+		}
+		else
+		{
+			System.out.println("Not equal");
+		}
+		if(s1.equals(s2))
+		{
+			System.out.println("equal");
+		}
+		else
+		{
+			System.out.println("not equal");
+		}
+		System.out.println("---------------------");
+		String s3 ="Hello";
+		String s4="Hello";
+        if (s3==s4)
+        {
+        	System.out.println("equal");
+        }
+        else
+        {
+        	System.out.println("Not equal");
+        }
+        if(s3.equals(s4))
+        {
+        	System.out.println("Equal");
+        }
+        else
+        {
+        	System.out.println("Not equal");
+        }
+
+				
+	}
+}
+ 
