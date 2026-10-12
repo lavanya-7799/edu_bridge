@@ -1,0 +1,17 @@
+package Vismaya;
+
+public class Demo7 {
+	
+	public static boolean isEven(int number) {
+		if(number %2==0) {
+			return true;
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println(isEven(10));
+		System.out.println(isEven(7));
+		
+}
+}
