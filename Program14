@@ -1,0 +1,12 @@
+package Vismaya;
+
+public class Demo7 {
+	
+	public static void main(String[] args) {
+		String a="apple";
+		String b="Mango";
+		System.out.println(a.compareTo(b));
+		System.out.println(b.compareTo(a));
+		System.out.println(a.compareTo(a));
+		}
+}
