@@ -1,0 +1,13 @@
+package Vismaya;
+
+public class Demo7 {
+	
+	public static void main(String[] args) {
+		String text ="Java programme";
+		System.out.println(text.substring(5));
+		System.out.println(text.substring(0,4));
+		
+
+		
+		}
+}
