@@ -1,0 +1,11 @@
+package Vismaya;
+
+public class Demo7 {
+	
+	public static void main(String[] args) {
+		String word="java";
+		System.out.println(word.length());
+		System.out.println(word.charAt(0));
+		System.out.println(word.charAt(3));
+}
+}
