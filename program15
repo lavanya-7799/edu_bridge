@@ -1,0 +1,6 @@
+String city="Bangolre";
+		
+		System.out.println(city.length());
+		System.out.println(city.toUpperCase());
+		System.out.println(city.equals("Bangolre"));
+		System.out.println(city.toLowerCase());
