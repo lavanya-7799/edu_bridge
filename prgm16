@@ -1,0 +1,16 @@
+package Vismaya;
+
+public class Demo7 {
+	
+	public static void main(String[] args) {
+		StringBuilder ab=new StringBuilder("Java Program");
+		ab.delete(4, 17);
+		System.out.println(ab);
+		StringBuilder ab2=new StringBuilder("java");
+		ab2.deleteCharAt(3);
+		System.out.println(ab2);
+		
+
+		
+		}
+}
