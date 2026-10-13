@@ -1,0 +1,16 @@
+package Vismaya;
+
+public class Demo7 {
+	
+	public static void main(String[] args) {
+		  String str = "malayalam";
+
+	        if (str.charAt(0) == str.charAt(str.length() - 1)) {
+	            System.out.println("Starting and ending characters are same");
+	        } else {
+	            System.out.println("Starting and ending characters are not same");
+	        }
+
+		
+		}
+}
